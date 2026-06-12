@@ -108,7 +108,7 @@ git init
 git remote add 3dgs https://github.com/HumbertoDiego/extended-3dgs
 git pull 3dgs main
 # Do and push changes:
-git add * ; git commit -m "run final"; git push -u 3dgs main
+git add * ; git commit -m "run final"; git push -u 3dgs main --force
 #Pull changes
 git pull origin main 
  -->
