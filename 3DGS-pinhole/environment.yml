@@ -1,0 +1,23 @@
+name: gs
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - tqdm 
+      - plyfile 
+      - opencv-python
+      - joblib
+      - open3d
+      - plyfile
+      - Pillow
+      - huggingface_hub
+      - einops
+      - safetensors
+      - pandas
+      - torch==2.5.1+cu124
+      - torchvision==0.20.1+cu124
+      - --extra-index-url https://download.pytorch.org/whl/cu124

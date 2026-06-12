@@ -1,0 +1,19 @@
+*.pyc
+build
+*.pyc
+.vscode
+
+# Results e datafolder
+out*
+mlruns*
+data*
+res*
+csvs*
+
+mlflow.db
+tests/.ipynb_checkpoints
+tests/myextension
+
+# pixi environments
+.pixi/
+!.pixi/config.toml
